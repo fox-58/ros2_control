@@ -180,7 +180,7 @@ public:
    *
    * Note the ownership over the state interfaces is transferred to the caller.
    *
-   * \return vector of state interfaces
+   * \return vector of command interfaces
    */
   [[deprecated(
     "Replaced by vector<CommandInterface::SharedPtr> on_export_command_interfaces() method. "
